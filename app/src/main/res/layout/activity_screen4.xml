@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECE3DB">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/testimonialsHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="See what our members have to say."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:paddingBottom="16dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/testimonial"
+                    android:contentDescription="Testimonial Member 1"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="16dp" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nancy S."
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="4dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thank you so much for all your free services. I have been a member of the group for one year and have already turned my life around."
+                        android:textColor="#4F4F4F"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/testimonial2"
+                    android:contentDescription="Testimonial Member 2"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="16dp" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MaryJane N."
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="4dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The intervention guidance and support you provided is the reason why I have been sober for seven months today."
+                        android:textColor="#4F4F4F"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/testimonial3"
+                    android:contentDescription="Testimonial Member 3"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="16dp" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Patrick B."
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="4dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I appreciate the freedom we get in sharing our stories and worries. Feeling the support of our group helps strengthen my resolve to continue my recovery journey."
+                        android:textColor="#4F4F4F"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:id="@+id/goToScreen5Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4F4F4F"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

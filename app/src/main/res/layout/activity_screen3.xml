@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/servicesHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Our services are always available for free."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:paddingBottom="16dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/sharing"
+                    android:contentDescription="Mutual Support Meetings"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="16dp"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1" >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mutual Support Meetings"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:fontFamily="sans-serif-medium" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Participants share experiences and provide support to strengthen their commitment to recover."
+                        android:textColor="#4F4F4F"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/hugging"
+                    android:contentDescription="Addiction Intervention"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="16dp" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Addiction Intervention"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:fontFamily="sans-serif-medium" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="If you have a loved one who is spiraling due to addiction, we can help you arrange an intervention."
+                        android:textColor="#4F4F4F"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/talking"
+                    android:contentDescription="Addiction Recovery Sponsor"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="16dp" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Addiction Recovery Sponsor"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:fontFamily="sans-serif-medium" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Senior recovering members of our community volunteer their time as sponsors to mentor new recoverees."
+                        android:textColor="#4F4F4F"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:id="@+id/goToScreen4Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="See Member Testimonials"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4F4F4F"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
